@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@192.168.172.136">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>10.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="EXAM">
+      <ObjectId>57</ObjectId>
+      <IntrospectionTimestamp>2018-06-13.04:01:30</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-06-11.18:08:55</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>19</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="TSMSYS">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="WMSYS">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="EXFSYS">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DMSYS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>38</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDPLUGINS">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="MDSYS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="OLAPSYS">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="MDDATA">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="SYSMAN">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="MGMT_VIEW">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SCOTT">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="HR">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="WATERUSER">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <sequence id="27" parent="2" name="SEQ_PRODUCT">
+      <ObjectId>52203</ObjectId>
+      <CreatedTimestamp>2018-06-13.04:01:26</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="28" parent="2" name="SEQ_USER">
+      <ObjectId>52204</ObjectId>
+      <CreatedTimestamp>2018-06-13.04:01:26</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="29" parent="2" name="T_PRODUCT">
+      <ObjectId>52199</ObjectId>
+      <CreatedTimestamp>2018-06-13.04:01:26</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="30" parent="2" name="T_USER">
+      <ObjectId>52201</ObjectId>
+      <CreatedTimestamp>2018-06-13.04:01:26</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="31" parent="29" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="29" name="COUNT">
+      <Position>2</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="33" parent="29" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="34" parent="29" name="PRICE">
+      <Position>4</Position>
+      <DataType>FLOAT(*)|0s</DataType>
+    </column>
+    <index id="35" parent="29" name="SYS_C005669">
+      <ObjectId>52200</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-06-13.04:01:26</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <TablespaceName>EXAM</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="36" parent="29" name="SYS_C005669">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005669</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="37" parent="30" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="30" name="PASSWORD">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="39" parent="30" name="USERNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <index id="40" parent="30" name="SYS_C005671">
+      <ObjectId>52202</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-06-13.04:01:26</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <TablespaceName>EXAM</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="30" name="SYS_C005671">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-06-13.04:01:26</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005671</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
